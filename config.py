@@ -14,16 +14,16 @@ class Config:
         self.LOGGER_ID = int(getenv("LOGGER_ID", 0))
         self.OWNER_ID = int(getenv("OWNER_ID", 0))
 
-        self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 120)) * 60
-        self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 20))
-        self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
+        self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 18000)) * 60
+        self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 250))
+        self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 30))
 
         self.SESSION1 = getenv("SESSION", None)
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/annu_updates")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/annu_support")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_ROYAL_ABOUT_ll")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_DPZ_WORLDS_lll")
 
         # Railway self-hosted YouTube API
         # URL must include scheme; if bare domain is given, https:// is added automatically
