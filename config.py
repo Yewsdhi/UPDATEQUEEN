@@ -30,8 +30,8 @@ class Config:
         _raw_url = getenv("RAILWAY_YT_API_URL", "")
         if _raw_url and not _raw_url.startswith(("http://", "https://")):
             _raw_url = "https://" + _raw_url
-        self.RAILWAY_YT_API_URL = _raw_url.rstrip("/")
-        self.RAILWAY_YT_API_KEY = getenv("RAILWAY_YT_API_KEY", "")
+        self.RAILWAY_YT_API_URL = _raw_url.rstrip("https://lily-api-hub.vercel.app")
+        self.RAILWAY_YT_API_KEY = getenv("RAILWAY_YT_API_KEY", "lily_Dcw2eZYrzdJUpVU3U14P8BtJFEi7SPCR")
 
 
 
