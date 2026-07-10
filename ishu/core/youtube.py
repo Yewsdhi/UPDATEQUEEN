@@ -20,8 +20,8 @@ from ishu import config, logger
 from ishu.helpers import utils
 
 # ── Config ────────────────────────────────────────────────────────────────────
-RAILWAY_YT_API_URL  = getattr(config, "RAILWAY_YT_API_URL",  None)
-RAILWAY_YT_API_KEY  = getattr(config, "RAILWAY_YT_API_KEY",  None)
+RAILWAY_YT_API_URL  = getattr(config, "https://lily-api-hub.vercel.app",  None)
+RAILWAY_YT_API_KEY  = getattr(config, "lily_Dcw2eZYrzdJUpVU3U14P8BtJFEi7SPCR",  None)
 
 DOWNLOAD_DIR        = "downloads"
 
